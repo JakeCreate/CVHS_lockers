@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'ruby',         '2.4.0'
+ruby '2.5.9'
 gem 'rails',        '4.2.2'
 gem 'figaro'
 gem 'sass-rails',   '5.0.2'
