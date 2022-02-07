@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.5.9'
+ruby '2.4.0'
 gem 'rails',        '4.2.2'
 gem 'figaro'
 gem 'sass-rails',   '5.0.2'
@@ -29,5 +29,5 @@ end
 group :production do
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
-  gem 'puma',           '2.11.1'
+  gem 'puma',           '3.7.0'
 end
