@@ -1,2 +1,2 @@
-class CvhsLocker < ActiveRecord::Base
+class CvhsLocker < ApplicationRecord
 end

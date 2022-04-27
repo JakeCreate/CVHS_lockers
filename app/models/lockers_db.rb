@@ -1,2 +1,2 @@
-class LockersDb < ActiveRecord::Base
+class LockersDb < ApplicationRecord
 end

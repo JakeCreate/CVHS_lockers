@@ -1,9 +1,11 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  floors: 
-  grades: 
+  floors: MyString
+  grades: 1
+  full_buildings: MyString
 
 two:
-  floors: 
-  grades: 
+  floors: MyString
+  grades: 1
+  full_buildings: MyString

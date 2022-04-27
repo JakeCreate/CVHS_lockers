@@ -1,2 +1,2 @@
-class Restriction < ActiveRecord::Base
+class Restriction < ApplicationRecord
 end

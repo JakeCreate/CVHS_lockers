@@ -1,15 +1,29 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
   name1: MyString
   name2: MyString
-  studentID1: 
-  studentID2: 
-  number: 
+  studentID1: 1
+  studentID2: 1
+  pref1: 1
+  pref2: 1
+  pref3: 1
+  lastName1: MyString
+  lastName2: MyString
+  lockerNum: 1
+  buildingNum: MyString
+  locker_unique: MyString
 
 two:
   name1: MyString
   name2: MyString
-  studentID1: 
-  studentID2: 
-  number: 
+  studentID1: 1
+  studentID2: 1
+  pref1: 1
+  pref2: 1
+  pref3: 1
+  lastName1: MyString
+  lastName2: MyString
+  lockerNum: 1
+  buildingNum: MyString
+  locker_unique: MyString
