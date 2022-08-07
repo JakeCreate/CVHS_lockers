@@ -56,7 +56,7 @@
           <div class="new-line">
            <fieldset class="upload-field" style="width:425px">
             <% restriction = Restriction.first %>
-            <h5>Current Grade Levels Permitted: <span class="red-text"><%= ("closed" if restriction[:grades] == 100) || restriction[:grades] %></span></h5>
+            <h5>Current Lowest Grade Level Permitted: <span class="red-text"><%= ("closed" if restriction[:grades] == 100) || restriction[:grades] %></span></h5>
             <h5>Current Restricted Floors: <span class="red-text"><%= restriction[:floors][0..(restriction[:floors].length-2)] %></span></h5>
           </div>
      </div>
@@ -67,11 +67,11 @@
 
             <h2>Change Grade Restriction</h2>
             <!-- GRADE RESTRICTION -->
-            <input type="checkbox" name="grade" value='9'> 9th<br>
-            <input type="checkbox" name="grade" value="10"> 10th<br>
-            <input type="checkbox" name="grade" value="11"> 11th<br>
-            <input type="checkbox" name="grade" value="12"> 12th<br>
-            <input type="checkbox" name="grade" value="100"> Not Open<br>
+            <input type="radio" name="grade" value='9'> 9th<br>
+            <input type="radio" name="grade" value="10"> 10th<br>
+            <input type="radio" name="grade" value="11"> 11th<br>
+            <input type="radio" name="grade" value="12"> 12th<br>
+            <input type="radio" name="grade" value="100"> Not Open<br>
 
             <h2>Change Floor Restriction</h2>
             <!-- FLOOR RESTRICTION -->
