@@ -20,8 +20,8 @@ class SettingsController < ApplicationController
       end
     end
 
-    if(params[:grades])
-      Restriction.first.update_attribute(:grades, params[:grades])
+    if(params[:grade])
+      Restriction.first.update_attribute(:grades, params[:grade])
     end
 
     if(restricted_floors != "") 
