@@ -21,6 +21,7 @@ gem 'zip-zip' # will load compatibility for old rubyzip API.
 gem 'bootstrap-will_paginate', '0.0.10'
 gem 'puma', '~> 5.0'
 gem 'webpacker', '~> 5.0'
+gem "puma_worker_killer"
 
 gem 'bootsnap', '>= 1.4.4', require: false
 
