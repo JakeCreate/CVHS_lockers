@@ -20,22 +20,8 @@ class SettingsController < ApplicationController
       end
     end
 
-    permitted_grades = ""
-    for i in 9..12
-      counter_grade = 'grade' + i.to_s
-
-      if params['grade']
-        permitted_grades = "none,"
-        break
-      end
-      
-      if(params[counter_grade])
-        permitted_grades += (params[counter_grade]+',')
-      end
-    end
-
-    if(permitted_grades != "")
-      Restriction.first.update_attribute(:grades, permitted_grades)
+    if(params[:grade])
+      Restriction.first.update_attribute(:grades, params[:grade])
     end
 
     if(restricted_floors != "") 
